@@ -1,0 +1,85 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    font-family: Arial;
+    
+    
+}
+
+#head{
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    display: flex;
+    padding-top: 10px;
+   
+}
+
+#main{
+    background-color: rgb(20, 242, 97);
+    height: 75vh;
+    justify-content: center;
+
+}
+
+#footer{
+    background-color: rgb(237, 24, 194);
+    height: 2vh;
+
+}
+
+.head-c {
+    background-color: green;
+
+}
+
+#head-izq {
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 10vh;
+    margin-left: 10px;
+}
+
+#head-der {
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 10vh;
+    text-align: right;
+}
+
+#main-info{
+    background-color: orange;
+    width: 50vw;
+    height: 75vh;
+}
+
+#footer-link{
+    background-color: brown;
+    display: flex;
+}
+
+#footer-link-izq{
+    background-color: blueviolet;
+    width: 30vw;
+    height: 9vh;
+}
+
+#footer-link-mid{
+    background-color: beige;
+    width: 40vw;
+    height: 9vh;
+}
+
+#footer-link-der{
+    background-color: olivedrab;
+    width: 30vw;
+    height: 9vh;
+}
+
+.boton-login{
+    color: white;
+    background-color: rgb(155, 138, 255);
+    border-color:  rgb(155, 138, 255);
+    border-style: solid;
+    border-radius: 4px;
+    font-size: 15px;
+}
